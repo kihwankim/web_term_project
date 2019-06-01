@@ -1,0 +1,59 @@
+@charset "EUC-KR";
+
+body {
+	background-color: lightblue;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Comic Sans MS", Serif, Cursive;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+}
+
+form input {
+	text-align: center;
+	font-size: 17px;
+	margin: 70px 0;
+	width: 200pt;
+	height: 40pt;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+form {
+	margin: 0 auto;
+	width: 800px;
+	padding: 2em;
+	text-align: center;
+}
+
+.TimeTable {
+	text-align: center;
+	border-radius: 1em;
+	width: 100%;
+}
+
+.selectedTimeTable {
+	margin: 20px auto;
+	width: 100px;
+	height: 18px;
+	text-align: center;
+}
+
+.iframePage {
+	width: 830px;
+	height: 1000px;
+}
+
+span {
+	color: white;
+}
+
+.stageimg{
+	text-align: center;
+}

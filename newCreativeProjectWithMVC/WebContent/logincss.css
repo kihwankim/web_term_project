@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+}
+
+div {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 25px;
+	text-align: center;
+}
+
+input{
+	height:25px;
+}
+
+.contents {
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+	height: 300px;
+	background-image: url("image/person.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}

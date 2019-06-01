@@ -1,0 +1,64 @@
+@charset "EUC-KR";
+
+body {
+	background-color: lightblue;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+}
+
+p {
+	margin: 0 auto;
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+	font-size: 20px;
+}
+
+.contents {
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+	height: 400px;
+	background-image: url("image/person.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.subTitle {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-family: "Comic Sans MS", Serif, Cursive;
+}
+
+.no_underline {
+	margin: 7em auto;
+	display: inline-block;
+	padding: 1em 3em;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.5em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	font-family: Serif, Monospace;
+}
+
+#logoutButton {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.5em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	font-family: Serif, Monospace;
+}

@@ -1,0 +1,74 @@
+@charset "EUC-KR";
+
+body {
+	background-color: lightblue;
+	text-align: center
+}
+
+form {
+	text-align: center;
+	margin: 1em auto;
+	width: 1000px;
+	padding: 2em;
+	border: 2px;
+	border-style: double;
+	border-color: white;
+	border-radius: 1em;
+	background-image: url("image/person.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+span {
+	font-size: 1.5em;
+	color: pink;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "Comic Sans MS", Serif, Cursive;
+}
+
+.subjectDiv {
+	text-shadow: -1px 0 pink, 0 1px blue, 1px 0 pink, 0 -1px pink;
+	margin: 5em auto;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	display: inline-block;
+}
+
+.subjectDiv select {
+	font-size: 20px;
+	margin-right: 5px;
+	text-align: center;
+	height: 30px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.2em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	color: pink;
+	text-shadow: -1px 0 pink, 0 1px black, 1px 0 blue, 0 -1px black;
+}
+
+.submitNumberOfSubs {
+	font-size: 15px;
+	display: block;
+	margin: 30px auto;
+}
+
+form input {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.stageimg{
+	text-align: center;
+}

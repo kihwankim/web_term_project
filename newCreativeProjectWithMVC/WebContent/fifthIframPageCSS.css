@@ -1,0 +1,29 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	text-align: center;
+}
+
+table {
+	background-image: url("image/person.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 800px;
+	border : 1px solid #444444;
+	border-collapse:collapse;
+	margin : 2em auto;
+}
+
+.head {
+	height: 25px;
+	width: 10px;
+	border : 1px solid #444444;
+	border-collapse:collapse;
+}
+
+.bodyOftr {
+	width: 50px;
+	border : 1px solid #444444;
+	border-collapse:collapse;
+}

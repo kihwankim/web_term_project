@@ -1,0 +1,60 @@
+@charset "EUC-KR";
+
+body {
+	background-color: lightblue;
+	text-align: center;
+}
+
+h1 {
+	font-style: italic;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "Comic Sans MS", Serif, Cursive;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+form {
+	display: inline-block;
+	display: block;
+	margin: 5em auto;
+	width: 1000px;
+	background-image: url("image/person.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.divOfTheText {
+	font-family: cursive, serif, "Comic Sans MS";
+	display: inline-block;
+	margin: 5em auto;
+	text-align: center;
+}
+
+form input {
+	display: inline-block;
+	font-size: 25px;
+	margin: 8px auto;
+	background: white;
+	font-family: "Comic Sans MS", Serif, Cursive;
+}
+
+.submmitSubjects {
+	font-size: 17px;
+	margin: 1em auto;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.stageimg{
+	text-align: center;
+}

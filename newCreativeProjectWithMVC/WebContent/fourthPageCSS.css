@@ -1,0 +1,63 @@
+@charset "EUC-KR";
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "Comic Sans MS", Serif, Cursive;
+}
+
+.selectForText {
+	margin: 10em auto;
+	text-align: center;
+	margin: 10em auto;
+}
+
+form {
+	width: 1000px;
+	padding: 2em;
+	display: block;
+	margin: 10px auto;
+	background-image: url("image/person.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+form input {
+	font-size: 25px
+}
+
+span {
+	color: black;
+	font-size: 25px
+}
+
+.send {
+	margin: 7em auto;
+	display: inline-block;
+	padding: 1em 3em;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.5em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.packageOfTheSpanAndText {
+	display: inline-block;
+	margin: 5px auto;
+	text-align: center
+}
+
+.titleOfTheSubject {
+	display: inline-block;
+	margin: 2em auto 10px;
+}
+
+.stageimg {
+	text-align: center;
+}
